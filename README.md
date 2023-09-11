@@ -1,18 +1,2 @@
 # credit_model
-Ce projet consiste en un modèle de crédit qui automatise le processus de décision d'accorder ou non un crédit à une personne.
-Le modèle utilise des techniques d'apprentissage automatique pour évaluer les risques associés à chaque demande de crédit et aider à prendre des décisions éclairées.
-
-##Comment ça fonctionne
-Le modèle de crédit est conçu pour prendre une série d'informations concernant une personne et évaluer sa probabilité de rembourser un crédit de manière satisfaisante.
-Voici comment le processus fonctionne :
-
-Collecte des données : Le modèle utilise des données historiques de crédit, y compris des informations sur les personnes ayant déjà reçu un crédit et leur comportement de remboursement.
-
-Prétraitement des données : Avant d'entraîner le modèle, les données sont nettoyées et prétraitées. Cela comprend la gestion des valeurs manquantes,
-la normalisation des données et d'autres étapes pour préparer les données pour l'apprentissage automatique.
-
-Entraînement du modèle : Les données prétraitées sont utilisées pour entraîner le modèle d'apprentissage automatique.
-Le modèle apprend à identifier les schémas et les caractéristiques qui sont associés à une probabilité élevée de remboursement du crédit.
-
-Évaluation des demandes de crédit : Lorsqu'une nouvelle demande de crédit est soumise, le modèle prend les informations fournies et les alimente dans le modèle entraîné.
-Le modèle génère ensuite une estimation de la probabilité que la personne rembourse le crédit avec succès.
+Ce projet vise à créer une application de prédiction des salaires des employés en utilisant l'apprentissage automatique. Tout d'abord, le fichier "model.py" contient le code du modèle d'apprentissage automatique qui est formé à partir des données de formation contenues dans le fichier "hiring.csv". Ensuite, l'application est mise en place dans le fichier "app.py" à l'aide du framework Flask, offrant des interfaces API pour recevoir les détails des employés, calculer les salaires prédits en utilisant le modèle, et les renvoyer aux utilisateurs. L'outil "request.py" utilise le module "requests" pour appeler ces APIs, tandis que le dossier "templates" héberge les modèles HTML qui permettent aux utilisateurs d'entrer les informations des employés et affichent les salaires prédits en retour. Dans l'ensemble, ce projet combine des éléments de science des données, de développement web et de gestion des APIs pour offrir une solution complète de prédiction des salaires des employés.
